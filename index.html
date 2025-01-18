@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>VSI</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 colonne-image text-white p-4">
+            </div>
+            <div class="col-md-6 p-4">
+               <div class="container">
+                <h2 class=" text-center mb-4">Formulaire d'enregistrement</h2>
+                <div style="margin-bottom: 20px;">
+                   <div class="row">
+                    <div class="col">
+                        <button id="btn_form1"  style="width: 100%;" type="button"  class="btn btn-success">Arriver</button>
+                    </div>
+                    <div class="col">
+                        <button id="btn_form2" style="width: 100%;" type="button" class="btn btn-warning">Depart</button>
+                    </div>
+                   </div>
+                </div>
+                 <div id="form-arrive" style=" border-radius: 10px;" class=" bg-success form-arrive row form-container-active">
+                    <div class="h1 text-success text-center  text-white">Formulaire d'arriver</div>
+                    <form class="row">
+                        <div class="col-12">
+                            <label for="Nom" class="form-label">Nom:</label>
+                            <input type="text" class="form-control" placeholder="Entrer votre nom">
+                        </div>
+                        <div class="col-12">
+                            <label for="Prenom" class="form-label">Prenom:</label>
+                            <input type="text" class="form-control" placeholder="Entrer votre prenom">
+                        </div>
+                        <div class="col-12">
+                            <label for="" class="form-label">Age:</label>
+                            <input type="text" class="form-control" placeholder="Entrer votre age">
+                        </div>
+                        <div class="col-12">
+                            <label for="" class="form-label">Numero poste ordinateur:</label>
+                            <input type="number" min="0" class="form-control" placeholder="Entrer le numero du l'ordinateur">
+                        </div>
+                        <div class="col-12 mb-5">
+                            <label for="Classe" class="form-label">Classe:</label>
+                            <select name="" id="" class="form-select">
+                                <option value="">Selectionner</option>
+                                <option value="">CP1</option>
+                                <option value="">CP2</option>
+                                <option value="">CE1</option>
+                                <option value="">CE2</option>
+                                <option value="">CM1</option>
+                                <option value="">CM2</option>
+                                <option value="">COLLEGE</option>
+                            </select>
+                        </div>
+                        <button class="btn col-12 btn-primary">Valider</button>
+                       
+                    </form>
+                 </div>
+
+                 <div id="form-depart" style="display: none; border-radius: 10px;" class=" form-arrive row form-container-active bg-warning">
+                    <div class="h1 text-warning text-center text-white">Formulaire de depart</div>
+                    <form class="row">
+                        <div class="col-12">
+                            <label for="Nom" class="form-label">Nom:</label>
+                            <input type="text" class="form-control" placeholder="Entrer votre nom">
+                        </div>
+                        <div class="col-12">
+                            <label for="Prenom" class="form-label">Prenom:</label>
+                            <input type="text" class="form-control" placeholder="Entrer votre prenom">
+                        </div>
+                        <div class="col-12">
+                            <label for="" class="form-label">Age:</label>
+                            <input type="text" class="form-control" placeholder="Entrer votre age">
+                        </div>
+                        <div class="col-12">
+                            <label for="" class="form-label">Numero poste ordinateur:</label>
+                            <input type="number" min="0" class="form-control" placeholder="Entrer le numero du l'ordinateur">
+                        </div>  
+                        <div class="col-12 mb-5">
+                            <label for="Classe" class="form-label">Classe:</label>
+                            <select name="" id="" class="form-select">
+                                <option value="">Selectionner</option>
+                                <option value="">CP1</option>
+                                <option value="">CP2</option>
+                                <option value="">CE1</option>
+                                <option value="">CE2</option>
+                                <option value="">CM1</option>
+                                <option value="">CM2</option>
+                                <option value="">COLLEGE</option>
+                            </select>
+                        </div>
+                        <button class="btn col-12 btn-primary">Valider</button>
+                       
+                    </form>
+                 </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+<script src="assets/js/arriveDepart.js"></script>
+</html>
