@@ -1,0 +1,18 @@
+.colonne-image{
+    background: url('../images/img1.PNG') no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+}
+.formulaire-container{
+    height: 500px;
+    text-align: center;
+    padding: 10px;
+}
+.form-arrive{
+    padding: 10px;
+}
+.container{
+    justify-content: center;
+    width: 100%;
+}
